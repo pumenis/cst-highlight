@@ -1,0 +1,29 @@
+pre {
+  color: white;
+  font-family: monospace;
+  overflow-y: auto;
+  background-color: #1a1d23;
+  tab-size: 4;
+}
+
+pre .property_name,
+pre .class_name {
+  color: #f5983a;
+}
+
+pre .id_name,
+pre .pseudo_class_selector .class_name {
+  color: #dfab25;
+}
+
+pre .tag_name {
+  color: #ff838b;
+}
+
+pre .integer_value {
+  color: #49bdb3;
+}
+
+pre .integer_value .unit {
+  color: #81b75b;
+}
