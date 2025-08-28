@@ -5,6 +5,7 @@ currently only following source files are supported:
 - go
 - html
 - js
+- css
 - sql
 - sh - bash
 
