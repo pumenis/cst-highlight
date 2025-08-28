@@ -51,6 +51,9 @@ func main() {
 	case ".sql":
 		result = highlight.GetSQLHighlighted(sourceCode)
 		cssFile = "css/sqlsyntax.css"
+	case ".css":
+		result = highlight.GetCSSHighlighted(sourceCode)
+		cssFile = "css/csssyntax.css"
 	default:
 		fmt.Fprintf(os.Stderr, "Unsupported file type: %s\n", ext)
 		os.Exit(1)
